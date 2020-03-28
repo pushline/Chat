@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+html, body {
+    height: 100%;
+  }
+  
+  h1{
+      display: flex;
+      font-family: Roboto, sans-serif;
+      justify-content: center;
+      margin-top: 40px;
+  }
+
+  input, button, textarea{
+    font:400 18px Roboto, sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+  }
+  
+  #chat {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 400px;
+    border: 1px solid #ddd;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 400px;
+    height: 60px;
+    background-color: #e02041;
+    border:0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+
+.button:hover{
+    filter: brightness(80%);
+}
+  .messages {
+    width: 400px;
+    height: 300px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
